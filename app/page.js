@@ -3,15 +3,17 @@
 'use client'
 import BlogList from "@/Components/BlogList";
 import Header from "@/Components/Header"
+import Footer from "@/Components/Footer"
 
 
 export default function Home() {
   // After removing the default codes in the return function, we will create a new fragment
-  //  Here we will mount the Header Component 
+  //  Here we will mount the different components
   return (
     <>
       <Header/>
       <BlogList/>
+      <Footer/>
     </>
   
   );

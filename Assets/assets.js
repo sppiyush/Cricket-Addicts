@@ -42,7 +42,7 @@ export const assets = {
 
     export const blog_data = [{
         id:1,
-        title:"A detailed step by step guide to manage your Domestic",
+        title:"Md Shami back for Duleep Trophy",
         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the..",
         image:blog_pic_1,
         date:Date.now(),
