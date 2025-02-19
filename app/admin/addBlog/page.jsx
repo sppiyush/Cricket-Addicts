@@ -13,7 +13,7 @@ const page = () => {
     title: "",
     description: "",
     category: "International",
-    author: "Piyush Kumar",
+    author: "Cricket Addicts",
     authorImg: "/author_img.png"
   })
 

@@ -29,7 +29,7 @@ const Header = () => {
         </div>
 
         <div className='text-center my-8'>
-            <h1 className='text-3xl sm:text-5xl font-medium'>Cricket Blogs</h1>
+            <h1 className='text-3xl sm:text-5xl font-medium'>Cricket Addicts</h1>
             <p className='mt-10 max-w-[740px] m-auto text-xs sm:text-base'>Step into the world of cricket with all the latest news and drama, where every boundary, wicket, and controversy is just a click away, keeping you connected to the heartbeat of the game!</p>
         </div>
         {/* This paragraph is commented out */}

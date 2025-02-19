@@ -41,16 +41,22 @@ const page = ({ params }) => {
     </div>
     <div className='mx-5 max-w-[800px] md:mx-auto mt-[-100px] mb-10'>
       <Image className='border-4 border-white' src={data.image} width={800} height={480} alt='' />
-      
-      <div className='blog-content' dangerouslySetInnerHTML={{__html:data.description}}>
-        
+
+      <div className='blog-content' dangerouslySetInnerHTML={{ __html: data.description }}>
+
       </div>
       <div className='my-24'>
         <p className='text-black font font-semibold my-4'>Share this article on social media</p>
         <div className='flex'>
-          <Image src={assets.facebook_icon} width={50} alt='' />
-          <Image src={assets.twitter_icon} width={50} alt='' />
-          <Image src={assets.googleplus_icon} width={50} alt='' />
+          <a href="https://www.facebook.com/sharer/sharer.php?u=YOUR_URL" target="_blank" rel="noopener noreferrer">
+            <Image src={assets.facebook_icon} width={50} alt="Facebook" />
+          </a>
+          <a href="https://twitter.com/intent/tweet?url=YOUR_URL&text=Check this out!" target="_blank" rel="noopener noreferrer">
+            <Image src={assets.twitter_icon} width={50} alt="Twitter" />
+          </a>
+          <a href="https://plus.google.com/share?url=YOUR_URL" target="_blank" rel="noopener noreferrer">
+            <Image src={assets.googleplus_icon} width={50} alt="Google Plus" />
+          </a>
         </div>
       </div>
     </div>
