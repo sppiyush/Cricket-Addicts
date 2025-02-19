@@ -43,7 +43,6 @@ const page = ({ params }) => {
       <Image className='border-4 border-white' src={data.image} width={800} height={480} alt='' />
 
       <div className='blog-content' dangerouslySetInnerHTML={{ __html: data.description }}>
-
       </div>
       <div className='my-24'>
         <p className='text-black font font-semibold my-4'>Share this article on social media</p>
