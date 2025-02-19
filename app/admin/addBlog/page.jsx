@@ -61,8 +61,8 @@ const page = () => {
 
         <p className='text-xl mt-4'>Blog Category</p>
         <select name="category" onChange={onChangeHandler} value={data.category} className='w-40 mt-4 px-4 py-3 border text-gray-500'>
-          <option value="Startup">International</option>
-          <option value="Technology">Leagues</option>
+          <option value="International">International</option>
+          <option value="Leagues">Leagues</option>
           <option value="Domestic">Domestic</option>
         </select>
         <br />
