@@ -6,7 +6,8 @@ const outfit = Outfit({ subsets: ['latin'] ,weight:["400","500","600","700"] })
 export const metadata = {
   title: 'Cricket Addicts',
   description: 'Welcome to the vast world of cricket!',
-}
+  icons: "/favicon.ico"
+};
 
 export default function RootLayout({ children }) {
   return (
