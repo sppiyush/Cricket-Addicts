@@ -66,7 +66,7 @@ const page = () => {
           <option value="Domestic">Domestic</option>
         </select>
         <br />
-        <button type="submit" className='mt-5 w-40 h-12 bg-black text-white'>ADD</button>
+        <button type="submit" className='mt-5 w-40 h-12 bg-red-700 text-white'>ADD</button>
       </form>
     </>
   )
