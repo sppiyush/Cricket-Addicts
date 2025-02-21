@@ -31,7 +31,7 @@ const BlogItem = ({ title, description, category, image, id }) => {
   return (
     <div 
       key={id} // Forces re-rendering of each blog item separately
-      className='max-w-[330px] sm:max-w-[300px] bg-white border border-black transition-all hover:shadow-[-7px_7px_0px_#a93226]'
+      className='max-w-[330px] sm:max-w-[300px] bg-white border border-black transition-all hover:shadow-[-7px_7px_0px_#D0312D]'
     >
       <Link href={`/blogs/${id}`}>
         <Image src={image} alt='' width={400} height={400} className='border-b border-black' />
